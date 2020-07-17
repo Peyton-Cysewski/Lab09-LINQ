@@ -47,8 +47,16 @@ namespace Lab09_LINQ
             Console.ReadLine();
             Console.Clear();
 
-            IEnumerable<string> redoOne = 
+            IEnumerable<string> redoOne = neighborhoods.Where(x => x != "");
+            Console.WriteLine($"Selected {redoOne.Count()} neighborhoods with a method instead of a query.");
+            Console.ReadLine();
+            Console.Clear();
 
+            Console.WriteLine("Here are all 39 unique neighborhoods, just for fun!");
+            foreach (string name in allInOne)
+            {
+                Console.WriteLine(name);
+            }
         }
 
     }

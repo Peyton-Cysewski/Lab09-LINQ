@@ -30,11 +30,11 @@ Then select and open ```Lab09-LINQ.sln```
 ### Visuals
 
 #### Reading in the JSON file
-![Total: 147 Neighborhoods)](./assets/)
+![Total: 147 Neighborhoods)](./assets/firstquery.png)
 #### Filtering the Neighborhoods
-![Total: 143 neighborhoods)](./assets/)
+![Total: 143 neighborhoods)](./assets/secondquery.png)
 #### Duplicates Removed
-![Total: 39 neighborhoods)](./assets/)
+![Total: 39 neighborhoods)](./assets/thirdquery.png)
 
 ---
 
